@@ -1,0 +1,100 @@
+General:
+  Reloaded: '&fКонфігурації перезавантажено.'
+  NoPermission: '&cУ вас немає дозволу.'
+  OnlyPlayer: '&fВи повинні бути гравцем, щоб виконати цю команду.'
+  TypeRegionName: '&fВведіть назву свого регіону. Якщо ви хочете перервати, введіть
+    ''q''.'
+  TypePlayerName: '&fВведіть ім''я гравця, якого ви хочете додати/видалити. Якщо ви
+    хочете перервати, введіть ''q''.'
+  TypeStringValue: '&fВведіть нове значення рядка для &a<flagName> &fflag. Якщо ви
+    хочете перервати, введіть ''q''.'
+  TypeIntegerValue: '&fВведіть нове числове значення (без десяткових знаків) для &a<flagName>
+    &fflag. Якщо ви хочете перервати, введіть ''q''.'
+  TypeDoubleValue: '&fВведіть нове числове значення (з необов’язковими десятковими
+    знаками) для &a<flagName> &fflag. Якщо ви хочете перервати, введіть ''q''.'
+  TypeLocationValue: '&fПерейдіть до потрібного розташування для &a<flagName> &fflag
+    і введіть ''set''. Якщо ви хочете перервати, введіть ''q''.'
+  TypeSetValue: '&fВведіть нове значення (з наступним символом «+»), яке потрібно
+    додати до &a<flagName> &fflag. Якщо в наборі вже є інші значення, вони не будуть
+    видалені. Якщо ви хочете перервати, введіть ''q''. Приклади значень: ''+/heal'',
+    ''+ZOMBIE'''
+  MakeWESelection: '&fТепер використовуйте WorldEdit, щоб установити межі регіону,
+    і введіть «create» (або «edit», якщо ви редагуєте існуючий регіон). Якщо ви хочете
+    перервати, введіть ''q''.'
+  Aborted: '&fОперацію перервано.'
+  RegionCreated: '&fРегіон &a<назва регіону> &fбуло створено.'
+  RegionExists: '&fРегіон із вказаною назвою вже існує в цьому світі.'
+  RegionDoesntExist: '&fВибраного регіону не існує. Його видалили?'
+  MatchRegex: '&fВаші дані можуть містити лише літери, цифри та символи «/», «_».'
+  MatchRegexPlayer: '&fВаші дані можуть містити лише літери, цифри та символи «_».'
+  RegionOverlapsNoPermission: '&fВи не можете створити регіон, який перекриває неналежні
+    регіони.'
+  MemberAdded: '&fГравець &a<гравець> &f тепер є членом регіону &a<регіон>.'
+  OwnerAdded: '&fГравець &a<гравець> &f тепер є власником регіону &a<регіон>.'
+  MemberRemoved: '&fГравець &a<гравець> &fi більше не є членом регіону &a<регіон>.'
+  OwnerRemoved: '&fГравець &a<гравець> &f більше не є власником регіону &a<регіон>.'
+  RegionRemoved: '&fРегіон &a<регіон> &fбуло видалено.'
+  RegionEdited: '&fНалаштування регіону змінено.'
+  RegionFlagsCopied: '&a<regionTo> &fnow має ті самі значення прапорів, що &a<regionFrom>
+    &fregion.'
+  InvClosedOnDisable: '&fВаш інвентар закрито через вимкнення плагіна.'
+  RegionParentSet: '&a<region> &fregion тепер є батьківським для &a<childregion> &fregion.'
+  RegionRenamed: '&a<oldName> &fregion було перейменовано на: &a<newName>&f.'
+  GUIItemHelp: У вас є предмет WG-GUI. Натисніть праву кнопку миші, щоб використати
+    його.
+  RegionLimit: Ви не можете мати більше ніж &<count> областей.
+
+GUI:
+  MainMenuTitle: Головне меню WG-GUI
+  MainMenuCreateNew: Створити новий регіон
+  MainMenuEditExisting: Редагувати наявний регіон
+  MainMenuReload: Перезавантажити конфігурації
+  Exit: Вихід
+  SelectTemplate: Виберіть шаблон регіону
+  SelectWorld: Виберіть Світ
+  SelectRegion: Виберіть регіон
+  ChangeRegionVisibility: Змінити видимість регіону
+  ShowAllRegions: Показані всі регіони
+  ShowOwnedRegions: Показано належні регіони
+  RegionOptions: Параметри регіону
+  EditFlagsOption: Редагувати прапори
+  EditFlagsTitle: Редагувати прапори
+  SelectTemplateOption: Виберіть шаблон
+  SelectTemplateTitle: Виберіть шаблон
+  TemplateNoName: Без назви
+  TemplateNoDescription: без опису
+  EditOwnerMemberOption: Редагувати власників/учасників цього регіону
+  EditOwnerMemberTitle: Редагувати власників/учасників цього регіону
+  RemoveRegionOption: Видалити цей регіон
+  SetFlagsFromOtherRegionOption: Встановити прапори з іншого регіону
+  SetParentRegionOption: Встановити батьківський регіон
+  RenameRegionOption: Перейменувати регіон
+  AddOwnerPlayerOption: Додати власника гравця до цього регіону
+  AddMemberPlayerOption: Додайте гравця до цього регіону
+  DeleteMemberPlayerOption: Видалити гравця з цього регіону
+  DeleteOwnerPlayerOption: Видалити власника гравця з цього регіону
+  EditRegionBoundsOption: Редагувати межі регіону
+  SelectPlayerTitle: Виберіть гравця
+  Value: '&9Значення:'
+  NextPage: Наступна сторінка
+  PreviousPage: Попередня сторінка
+  HelpItemName: '&eДопомога'
+  HelpItemLore:
+  - '&3 Клацання лівою кнопкою миші - змінити значення прапора'
+  - '&3 Клацання правою кнопкою миші - скинути прапорець до значення за замовчуванням'
+  - '&3 Shift + клацання лівою кнопкою миші - змінити значення групи прапорців'
+  ConfirmMessage: '&eТи впевнений?'
+  ParentWarn: '&cРегіон не може бути батьківським!'
+  GetItem: Get GUI Item
+  ValueNames:
+    ALLOW: ALLOW
+    DENY: DENY
+    DEFAULT: '&fDEFAULT'
+    NONE: NONE
+    ALL: ALL
+    MEMBERS: MEMBERS
+    OWNERS: OWNERS
+    NON_MEMBERS: NON_MEMBERS
+    NON_OWNERS: NON_OWNERS
+    'true': 'TRUE'
+    'false': 'FALSE'

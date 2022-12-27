@@ -1,0 +1,216 @@
+#This is the Russian language file, set "language-file" in the config.yml to "lang-ru.yml" to use this file!
+#You can see this site for all color codes ----> https://minecraft.tools/en/color-code.php
+# Help translate this file over on our Crowdin: https://crowdin.com/project/economyshopgui
+
+#StartUp/Reload
+shops,yml-not-found: Shops.yml не знайдено, створюю...
+shops,yml-created: Shops.yml успішно створено!
+shops,yml-found: Shops.yml знайдено!
+sections,yml-not-found: Sections.yml не знайдено, створюю...
+sections,yml-created: Sections.yml успішно створено!
+sections,yml-found: Sections.yml знайшли!
+updating-shop-settings: Оновлення налаштувань магазину...
+adding-new-shop-shops,yml: Додавання нового магазину під назвою %shopsection% до shops.yml.
+adding-new-shop-sections,yml: Додавання нового магазину %shopsection% до sections.yml.
+disabled-due-no-vault: Вимкнено через відсутність залежності Vault, встановіть Vault.
+disabled-due-no-economy: Вимкнено через відсутність залежності Vault, встановіть Vault.
+update-available: Оновлення доступне!
+done: Готово!
+updating-sections-config: Оновлення конфігурації розділів...
+debug-mode-enabled: Режим налагодження увімкнено.
+economy-provider-null: EconomyProvider не встановлено.
+successfully-hooked-into-vault: Успішно підключено до Vault.
+language-file-using: Використання %languagefile% як мовний файл.
+cannot-find-language-file: Не можна знайти мовний файл!
+minecraft-version-using: Використовується версія minecraft %version%...
+checking-each-item: Перевірка кожного предмета на неправильні/відсутні значення.
+loading-items: Завантаження всіх предметів...
+could-not-find-valid-version: Не вдалося знайти відповідну версію для цієї версії сервера. Це призведе до того, що плагін не буде використовувати версію, що призведе до того, що багато предметів/методів не працюватимуть. Будь ласка, скористайтеся підтримуваною версією Minecraft.
+updating-configs: Оновлення конфігурацій, оскільки було виявлено новішу версію...
+creating-backup: Створюючи резервну копію зі старого %fileName%, файл можна знайти у папці резервних копій усередині папки плагіна EconomyShopGUI.
+discounts-feature-unavailable: Неможливо ввімкнути функцію знижок, оскільки не знайдено плагін для прав.
+#Main Shop Inventory
+inventory-main-shop-title: '&8&lМагазин сервера'
+profile: '&aПрофіль'
+name: '&6Ім''я'
+money: '&6Баланс'
+level: '&6Рівень'
+#Buystacks Inventory title
+inventory-buystacks-title: '&8Виберіть кількість &lстаків'
+#HowMuchSell/HowMuchBuy Inventory
+inventory-howmuchsell-title: '&8Виберіть кількість предметів для продажу'
+inventory-howmuchbuy-title: '&8Виберіть кількість предметів для покупки'
+plus-one: '&b+1'
+min-one: '&5-1'
+plus-sixteen: '&b+16'
+min-sixteen: '&5-16'
+plus-thirty-two: '&b+32'
+min-thirty-two: '&5-32'
+sell: '&aПродати?'
+sell-all: Продати все?
+buy: '&Купити?'
+buy-stacks: Купити стаки?
+#All Inventory's
+back: '&4Назад'
+cancel: '&4Скасування'
+#Previous/Next/Current page
+previous-page: '&dПопередня сторінка'
+next-page: '&bНаступна сторінка'
+current-page: '&7Сторінка:'
+#Buy/Sell Controls
+left-click-buy: 'Лівий клік: Купити: за %amounttopay%'
+right-click-sell: '&6Правий клік: Продати: &c%amounttopay%'
+item-location-in-shop: '&8Розділ: %shopsection%, Каталог: %itemLoc%'
+#Buy/Sell Messages
+pay-confirmation: '&aВи купили &1%amount% x &b%material% &aза &c%amounttopay%'
+sell-confirmation: '&aВи продали &1%amount% x &b%material% &aза &c%amounttopay%'
+sell-confirmation-multiple-items: '&aВи продали &1%amount% &aпредметів за &c%amounttopay%'
+no-item-to-be-sold: '&You do not have any of this item inside your inventory.'
+item-cannot-be-bought: Предмет не може бути куплений.
+item-cannot-be-sold: Предмет не може бути проданий.
+player-made-transaction: '%playername% %bought/sold% %amount% x %material% за %amountofmoney% через %buy/sell-method%.'
+buy-screen: купити через меню
+sell-screen: продати через меню
+buystacks-screen: купити стаки через меню
+sellall-screen: продати все через меню
+sellall-command: продати все команда
+bought: куплено
+sold: продано
+#CurrencySymbol
+currencysymbol: $%price%
+#All commands
+command-disabled-in-world: '&cЦя команда відключена у світі.'
+#Edit-shop subcommand descriptions
+editshop-add-item-subcommand-desc: '&Додати предмет до магазину.'
+editshop-edit-item-subcommand-desc: '&aРедагувати існуючий предмет у магазині.'
+editshop-remove-item-subcommand-desc: '&aВидалити предмет із магазину.'
+editshop-add-hand-item-subcommand-desc: '&Додати предмет з руки.'
+#Edit-shop subcommand syntaxes
+editshop-add-item-subcommand-syntax: '&a/editshop additem <секція> <матеріал> <ціна купівлі> <ціна продажу> [назва]'
+editshop-edit-item-subcommand-syntax: '&a/editshop edititem <секція> <предмет> <дія> <ключ> <число>'
+editshop-remove-item-subcommand-syntax: '&a/editshop deleteitem <секція> <предмет>'
+editshop-add-hand-item-subcommand-syntax: '&a/editshop addhanditem <секція> <ціна> купівлі> <ціна продажу>'
+#Edit-shop command messages
+editshop-adding-item: '&aДодавання нового предмета...'
+editshop-add-item-successful: '&aУспішно додано предмет - ''%itemPath%''.'
+editshop-editing-item: '&aОновлення предмета...'
+editshop-edit-item-successful: '&aУспішно оновлено - ''%itemPath%''.'
+editshop-removing-item: '&aВидалення предмета з магазину...'
+editshop-remove-item-successful: '&aУспішно видалено - ''%itemPath%'' з магазину.'
+editshop-reload-shop-to-see-changes: '&aВикористовуйте /sreload, щоб оновити.'
+#Edit-shop command errors
+section-does-not-contain-item: '&cСекція ''%shopsection%'' не містить предмета ''%itemLoc%''.'
+no-valid-action: '&cНедійсна дія ''%action%''. Доступні дії: %actions%.'
+no-valid-key: '&cНедійсний ''%key%''. Доступні ключі %keys%.'
+action-not-valid-on-key: '&cНеможливо для %action% використовувати ''%key%'' ключ.'
+edit-item-material-invalid: Матеріал предмета недійсний. '%material%'
+key-already-defined: '&cКлюч ''%key%'' вже існує в магазині, ви не можете додати його двічі.'
+key-is-not-found: '&cКлюч ''%key%''не можна видалити з магазину, тому що його не знайдено.'
+no-valid-slot-for-item: '&cПредмет не може бути поміщений у слот ''%slot%''. Слот має бути 1 - %maxShopSize%.'
+#Reload Command
+configs-reloaded: '&aВсі конфігурації перезавантажені.'
+#Balance Command
+check-balance: '&bУ вас є баланс &c%amountofmoney%&b.'
+check-balance-other-player: '&aУ &b%playername% &є &c%amountofmoney%&a.'
+#Givemoney Command
+givemoneycommand-example: '&9/givemoney <гравець> <кількість>'
+givemoney-complete: '&a Успішно видано гроші.'
+#Pay Command
+minimum-amount: Мінімальна сума для виплати гравцеві складає %minimumamount%.
+payment-complete: '&aВиплата успішна.'
+player-received-money: '&aВи отримали &c%amounttogive% &aвід &2%playername%&a!'
+need-player-and-amount: '&9Вам потрібно вказати гравця та суму.'
+need-amount: '&9Вам потрібно вибрати кількість.'
+paycommand-example: '&9/pay <гравець> <кількість>'
+#Player breaks spawner
+default-spawner-name: '&9&l%spawner-type% &rспавнер'
+spawner-broke-and-applied-to-inventory: '&aВи видобули &9%spawner-type%&a, він був доданий до вашого інвентарю.'
+need-silk-touch: Вам потрібно використовувати шовковий дотик для цього!
+#JoinMessage
+join-message: '&2Ласкаво просимо, ваш баланс &c%balance%!'
+#Level event
+level-event-message: '&2[Рівні] &c%amount% &5було додано на ваш баланс!'
+#Item error's
+displayname-null: Порожня назва.
+item-name-null: Не вдалося одержати назву предмета.
+need-item-material: Потрібен матеріал.
+item-material-null: Не вдалося одержати матеріал предмета. Якщо ви вважаєте, що це помилка, повідомте про це наш сервер підтримки Discord, який ви можете знайти на сторінці плагіна. %material%
+item-enchantment-null: Не вдалося впізнати чарівні.
+need-item-enchantment: Неможливо створити чари із порожнім значенням.
+item-enchantment-not-supported: Ці чари не підтримуються у цій версії minecraft.
+enchantment-cannot-apply-to-item: Щоб накласти чари на предмет, матеріал повинен бути книгою чарів або інструментом, який підходить для чарів.
+item-spawnertype-null: Неможливо отримати тип спавнера.
+need-item-spawnertype: Неможливо створити спаунер з порожнім типом спаунер.
+material-needs-to-be-spawner: Щоб застосувати елемент Spawner-Type (Entity-Type), матеріал предмета повинен бути спавнером.
+item-potiontype-null: Не вдалося одержати типу зілля.
+need-item-potiontype: Неможливо створити тип зілля з пустим значенням.
+potiontype-not-supported: Цей тип зілля не підтримується у цій версії Minecraft
+material-needs-to-be-potion: Щоб застосувати ефект зілля, матеріал має бути різновидом зілля або стрілою.
+cant-bind-multiple-applyments: Неможливо створити предмет із кількома застосуваннями, такими як типи чар/спаунерів або ефекти зелий.
+item-error: Помилка предмета, подивіться в консолі.
+material-not-supported: Цей матеріал не підтримується в цій версії Minecraft.
+item-needs-buy-and-sell-value: У кожного предмета в магазині має бути ціна купівлі/продажу.
+sell-value-wrong: Вартість продажу має бути десятковою або числовою.
+buy-value-wrong: Вартість покупки має бути десятковою або числовою.
+option-type-changed: Змініть опцію "type" на опцію "spawnertype", щоб створити спаунер у магазині. Назва опції було змінено у версії 2.2 для ясності.
+option-meta-changed: Змініть опцію «meta» на опцію «displayname», щоб створити товар з іменем, що відображається в магазині. Назва опції було змінено у версії 2.2 для ясності.
+cannot-display-shopsection: Неможливо створити розділ магазину '%shopsection%', тому що місце товару має знаходитись у діапазоні від 0 - %maxInvSize%.
+need-recipe-material: Неможливо створити матеріал рецепту з пустим значенням.
+cannot-get-recipe-material: Неможливо створити рецепт матеріалу, перевірте назву матеріалу на наявність орфографічних помилок та наявність.
+recipe-material-not-supported: Цей матеріал рецепту не підтримується у цій версії Minecraft.
+material-needs-to-be-book: Щоб застосувати рецепт до предмета, матеріал предмета може бути книгою крафтов.
+need-skullowner: Неможливо створити голову гравця без гравця (власника черепа).
+material-needs-to-be-skull: Щоб застосувати текстуру черепа (власника черепа) до предмета, матеріал предмета повинен бути головою гравця.
+material-needs-to-be-leather-armor: Щоб застосувати колір до частини броні, матеріалом має бути шкіряна броня.
+#Item path
+items-path-in-shops-config: 'Шлях до предмета в shops.yml: %location%'
+items-path-in-sections-config: 'Шлях до предмета в sections.yml: %location%'
+items-path-in-config: 'Шлях до предмета в config.yml: %location%'
+#Compatibility
+ultimatestacker-compatibility-enabled: Постачальник Spawner встановлено на UltimateStacker у конфігурації
+ultimatestacker-not-found: UltimateStacker не знайдено
+could-not-integrate-with-ultimatestacker: Не вдалося інтегруватися з UltimateStacker
+ultimatestacker-found: UltimateStacker знайдено, інтегрує...
+using-ultimatestacker-spawners: Використання UltimateStacker як постачальник спаунерів.
+wildstacker-compatibility-enabled: Плагін спавнера встановлений на WildStacker у config.
+wildstacker-not-found: WildStacker не було знайдено.
+wildstacker-found: WildStacker знайдений, інтегрую..
+could-not-integrate-with-wildstacker: Не вдалося інтегруватися з WildStacker.
+using-wildstacker-spawners: Використання WildStacker як плагін спавнера.
+silkspawners-compatibility-enabled: SilkSpawners сумісність була включена до config.
+silkspawners-not-found: SilkSpawners не знайшли
+silkspawners-found: SilkSpawners знайдено, інтегрую...
+could-not-integrate-with-silkspawners: Не вдалося інтегруватися із плагіном SilkSpawners.
+using-silkspawners-spawners: Використання плагіна SilkSpawners для спавнерів.
+using-default-spawners: Використання звичайних спавнерів.
+#Error's
+cannot-find-discounted-section: Неможливо додати знижки для розділу '%section%' або розділ магазину вимкнено або не знайдено.
+cannot-find-discounted-group: Неможливо додати знижки для групи дозволів '%permsGroup%', перевірте орфографію і чи існує вона у плагіні дозволів.
+disabling-plugin: Вимкнення плагіна...
+not-spawn-able: Цей тип сутності може бути створено. '%spawnertype%'
+real-player: Щоб використати цю команду, потрібно бути гравцем.
+player-not-online: Цей гравець не існує або не онлайн.
+cannot-sell-air: '&cВи не можете продати повітря.'
+no-permissions: У вас немає прав!
+no-permissions-to-open-shop: У вас немає прав.
+cannot-do-that: '&4Ви не можете зробити це!!'
+more-space-needed: '&cЗвільніть місце в інвентарі та спробуйте ще раз.'
+could-not-store-all-items: '&c%amount% предмет(ів) не може бути доданий до вашого інвентарю, тому що він заповнений.'
+not-enough-space-inside-inventory: '&4У вас недостатньо місця в інвентарі, предмети, що залишилися, випали на землю.'
+insufficient-money: У вас недостатньо грошей.
+canceling-transaction-no-space: '&4У вас недостатньо місця в інвентарі, транзакція скасовується. Будь ласка, звільніть більше місця у вашому інвентарі та спробуйте ще раз.'
+no-items-in-section: Неможливо відкрити розділ магазину %shopsection%, тому що нічого не знайдено!
+no-item-found: '&cПредмет(и) не знайдено.'
+item-null: Предмет не існує.
+item-cannot-be-sold-to-server: Предмет (%material%) не можна продати серверу, тому що предмет має помилку всередині магазину. Будь ласка, повідомте про це проблему адміністраторам сервера або власнику.
+could-not-save-shops,yml: '&4Не вдалося зберегти shops.yml.'
+could-not-save-sections,yml: '&4Не вдалося зберегти sections.yml.'
+could-not-save-config: Не вдалося зберегти конфігурацію %fileName%.
+rgb-color-formatted-wrong: 'Кольори RGB повинні бути відформатовані як: ''0x000000'' ''000000'' або ''000000'' у %path%.'
+no-shop-found: '&cНе можу знайти розділ магазину з такою назвою!'
+no-valid-amount: '&cНедійсне число'
+restart-plugin: Не вдається відкрити розділ магазину, спробуйте перезапустити плагін або приєднатися до сервера Discord для отримання підтримки.
+could-not-check-for-updates: '&cНе вдалося перевірити наявність оновлень.'
+cannot-update-config: '&cНеможливо оновити файл конфігурації config.yml.'
+cannot-read-config: Неможливо прочитати конфігурацію %fileName%, тому що вона неправильно налаштована, використовуйте онлайн-аналізатор Yaml з помилкою внизу, щоб з'ясувати причину проблеми та вирішити її. Якщо ви не можете знайти причину самостійно, приєднуйтесь до нашого сервера підтримки Discord, який можна знайти на сторінці плагінів EconomyShopGUI.
+error-occured-while-reloading: '&4Виникла помилка при перезавантаженні плагіна, будь ласка, загляньте в консоль, щоб побачити повідомлення про помилку.'

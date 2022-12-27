@@ -1,0 +1,89 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Example menu'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'tempdonate'
+  - 'tempdon'
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # These actions will be executed when the menu is opened.
+  # Supports all the icon action types.
+  open-actions:
+  - 'tell: &eМеню тимчасового донату'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+
+set_fly_1d:
+  MATERIAL: gold ingot
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: '&eОтримати fly на годину'
+  LORE:
+    - 'За плату в $1000 ви отримаєте /fly на 1 день'
+    - 'Будьте уважні привелегії одного типу не додаються'
+    - ''
+    - 'Поточний баланс: {money}'
+  PRICE: 1000
+  ACTIONS:
+    - 'tell: &aЗ вас списано $1000'
+    - 'console: lp user {player} parent addtemp fly 1d'
+    - 'tell: &aДоступ до fly отримано, якщо ви не не зможете вимкнути політ перезайдіть на сервер'
+  KEEP-OPEN: true
+
+set_fly_1w:
+  MATERIAL: gold ingot
+  POSITION-X: 2
+  POSITION-Y: 1
+  NAME: '&eОтримати fly на годину'
+  LORE:
+    - 'За плату в $5000 ви отримаєте /fly на 1 тиждень'
+    - 'Будьте уважні привелегії одного типу не додаються'
+    - ''
+    - 'Поточний баланс: {money}'
+  PRICE: 5000
+  ACTIONS:
+    - 'tell: &aЗ вас списано $5000'
+    - 'console: lp user {player} parent addtemp fly 1w'
+    - 'tell: &aДоступ до fly отримано, якщо ви не не зможете вимкнути політ перезайдіть на сервер'
+  KEEP-OPEN: true
+
+
+
+
+close-without-actions:
+  MATERIAL: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 3
+  NAME: '&6Close the menu'
+  LORE:
+    - 'An icon without actions will just close'
+    - 'the window when clicked.'

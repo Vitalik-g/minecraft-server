@@ -1,0 +1,92 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&cТимчасовий донат'
+  rows: 6
+  command: 
+    - tempdon
+    - tdonate
+    - tempdonate
+  auto-refresh: 5
+  open-action:
+    - 'tell: &eВідкрито меню тимчасового донату'
+  close-action:
+    - 'tell: &cЗакрити меню тимчасового донату'
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id: GREEN_STAINED_GLASS_PANE
+    # frame2:
+    #   id: GREEN_STAINED_GLASS_PANE
+    # frame3:
+    #   id: BLUE_STAINED_GLASS_PANE
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+fly:
+  NAME: '&dДоступ до &u/fly &dна тиждень'
+  COMMAND: 
+  - "condition: %vault_eco_balance_fixed% > 5000" 
+  - 'console: eco take acronis 5000' 
+  - 'console: lp user {player} parent addtemp fly 1w'
+  - 'tell: &aДоступ до &u/fly &aотримано, якщо ви не не зможете вимкнути політ перезайдіть на сервер'
+  LORE:
+    - '&aЗа плату в $5000 ви отримаєте &u/fly &aна 1 тиждень'
+    - '&aБудьте уважні привелегії одного типу не додаються'
+    - ''
+    - '&aПоточний баланс: &4%vault_eco_balance_fixed%'
+  ID: feather
+  POSITION-X: 5
+  POSITION-Y: 1
+heal:
+  NAME: '&dДоступ до &u/heal &dна день'
+  COMMAND: 
+  - "condition: %vault_eco_balance_fixed% > 5000" 
+  - 'console: eco take acronis 5000' 
+  - 'console: lp user {player} parent addtemp heal 1d'
+  - 'tell: &aДоступ до &u/heal &aотримано'
+  LORE:
+    - '&aЗа плату в $5000 ви отримаєте &u/heal &aна 1 день'
+    - '&aБудьте уважні привелегії одного типу не додаються'
+    - ''
+    - '&aПоточний баланс: &4%vault_eco_balance_fixed%'
+  ID:   potion
+  POSITION-X: 4
+  POSITION-Y: 2
+
+feed:
+  NAME: '&dДоступ до &u/feed &dна день'
+  COMMAND: 
+  - "condition: %vault_eco_balance_fixed% > 5000" 
+  - 'console: eco take acronis 5000' 
+  - 'console: lp user {player} parent addtemp feed 1d'
+  - 'tell: &aДоступ до &u/feed &aотримано'
+  LORE:
+    - '&aЗа плату в $5000 ви отримаєте &u/feed &aна 1 день'
+    - '&aБудьте уважні привелегії одного типу не додаються'
+    - ''
+    - '&aПоточний баланс: &4%vault_eco_balance_fixed%'
+  ID: cooked_beef
+  POSITION-X: 6
+  POSITION-Y: 2
+
+close-the-menu:
+  id: BARRIER
+  slot: 53
+  name: '&cClose the menu'
+  close-on-click: true

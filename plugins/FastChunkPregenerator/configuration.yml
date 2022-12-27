@@ -1,0 +1,17 @@
+MaxMillisPerTick: 28.5
+
+WaitTicksBetween: 0
+
+AsyncChunkLoadingEnabled: true
+
+HighAsyncPriority: true
+
+UnsafeAsyncCalls: false
+
+MaxParallelAsyncCalls: 64
+
+SecondsPerNotification: 8
+
+# The progess output. Can be one of:
+# NONE, CONSOLE, BROADCAST, OP, OP_AND_CONSOLE
+NotificationType: CONSOLE

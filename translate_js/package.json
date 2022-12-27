@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "google-translate": "^3.0.0",
+    "selenium-webdriver": "^4.4.0"
+  }
+}

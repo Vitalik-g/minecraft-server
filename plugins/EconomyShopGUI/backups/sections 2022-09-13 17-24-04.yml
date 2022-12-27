@@ -1,0 +1,117 @@
+#File Generated: 20220724-2137 | MCversion: 1.19 | ESGUI ver: 4.8.0
+#Please Check out the wiki for more information about configuring these files!
+#@ https://gpplugins.gitbook.io/economyshopgui/
+
+ShopSections:
+  seller:
+    enable: true
+    material: "GRASS_BLOCK"
+    displayname: "&2&lПродаж"
+    place: 50
+  Blocks:
+    enable: false
+    material: "GRASS_BLOCK"
+    displayname: "&2&lБлоки"
+    place: 19
+
+  Decoration:
+    enable: false
+    material: "TUBE_CORAL"
+    displayname: "&9&lДекоративні"
+    place: 30
+
+  Dyes:
+    enable: false
+    material: "CYAN_DYE"
+    displayname: "&2&lБарвники"
+    place: 23
+
+  Enchanting:
+    enable: false
+    material: "ENCHANTED_BOOK"
+    displayname: "&d&lЗачарування"
+    place: 22
+    lore:
+    - "&5&lОзнайомтеся з зачарування!"
+
+  Farming:
+    enable: false
+    material: "WHEAT"
+    displayname: "&a&lЛут"
+    place: 20
+
+  Food:
+    enable: false
+    material: "COOKED_BEEF"
+    displayname: "&6&lЇжа"
+    place: 25
+
+  Mobs:
+    enable: false
+    material: "GUNPOWDER"
+    displayname: "&7&lМоби"
+    place: 21
+
+  Music:
+    enable: false
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&6&lМузика"
+    place: 14
+
+  Ores:
+    enable: false
+    material: "IRON_INGOT"
+    displayname: "&f&lРуди"
+    place: 13
+
+  Miscellaneous:
+    enable: false
+    material: "SADDLE"
+    displayname: "&c&lРізне"
+    place: 24
+
+  Potions:
+    enable: false
+    material: "POTION"
+    displayname: "&d&lЗілля та стріли з зіллями"
+    potion-glow: true
+    place: 40
+
+  Redstone:
+    enable: false
+    material: "REDSTONE"
+    displayname: "&c&lМеханізми"
+    place: 32
+    lore:
+    - "&4&lДля створення редстоун механізмів!"
+
+  Spawners:
+    enable: false
+    material: "SPAWNER"
+    displayname: "&8&lСпавнери"
+    place: 31
+
+  Workstations:
+    enable: false
+    material: "GRINDSTONE"
+    displayname: "&7&lРобочі інструменти"
+    place: 12
+    lore:
+    - "&8&lДля видачі професій жителям"
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&8&lSpawnEggs"
+    place: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: "BEDROCK"
+    displayname: "Z_EverythingElse"
+    place: 41
+
+Fill-item:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  enable: true

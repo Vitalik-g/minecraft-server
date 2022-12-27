@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1663115289444
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669759104534
+  login: 1669758422587
+money: '3950001.0'
+last-account-name: acronis
+lastlocation:
+  world: 86ccf435-61ae-4f99-8843-a419557c4e3f
+  world-name: world
+  x: 2066.4697191463615
+  y: 88.6995348505801
+  z: -2029.300000011921
+  yaw: -74.62786865234375
+  pitch: 22.544021606445312
+logoutlocation:
+  world: 86ccf435-61ae-4f99-8843-a419557c4e3f
+  world-name: world
+  x: 150.97547364260691
+  y: 73.0
+  z: -1753.069652087319
+  yaw: -130.20068359375
+  pitch: 14.849971771240234

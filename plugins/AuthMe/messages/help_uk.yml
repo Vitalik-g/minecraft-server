@@ -1,0 +1,153 @@
+# Translation config for the AuthMe help, e.g. when /authme help or /authme help register is called
+
+# -------------------------------------------------------
+# List of texts used in the help section
+common:
+    header: '==========[ Допомога по AuthMeReloaded ]=========='
+    optional: 'Не Обов`язково'
+    hasPermission: 'Наявна'
+    noPermission: 'ні'
+    default: 'За замовчуванням'
+    result: 'Право на використання'
+    defaultPermissions:
+        notAllowed: 'нема прав'
+        opOnly: 'тільки для операторів'
+        allowed: 'дозволено всім'
+
+# -------------------------------------------------------
+# Titles of the individual help sections
+# Set the translation text to empty text to disable the section, e.g. to hide alternatives:
+#   alternatives: ''
+section:
+    command: 'Команда'
+    description: 'Короткий опис'
+    detailedDescription: 'Опис'
+    arguments: 'Аргументи'
+    permissions: 'Права'
+    alternatives: 'Альтернативи'
+    children: 'Команди'
+
+# -------------------------------------------------------
+# You can translate the data for all commands using the below pattern.
+# For example to translate /authme reload, create a section "authme.reload", or "login" for /login
+# If the command has arguments, you can use arg1 as below to translate the first argument, and so forth
+# Translations don't need to be complete; any missing section will be taken from the default silently
+# Important: Put main commands like "authme" before their children (e.g. "authme.reload")
+commands:
+    authme.register:
+        description: 'Реєстрація гравця'
+        detailedDescription: 'Реєструє гравця із вказаним ім`ям та паролем.'
+        arg1:
+            label: 'гравець'
+            description: 'Ім`я гравця'
+        arg2:
+            label: 'пароль'
+            description: 'пароль'
+    authme.unregister:
+        description: 'Видалення реєстрації гравця'
+        detailedDescription: 'Забирає реєстрацію зазначеного гравця з бази даних.'
+        arg1:
+            label: 'гравець'
+            description: 'Ім`я гравця'
+    authme.forcelogin:
+        description: 'Авторизація гравця'
+        detailedDescription: 'Авторизація зазначеного гравця.'
+        arg1:
+            label: 'гравець'
+            description: 'ім`я гравця в мережі'
+    authme.password:
+        description: 'Зміна пароля гравця'
+        detailedDescription: 'Змінює пароль вказаного гравця.'
+        arg1:
+            label: 'гравець'
+            description: 'Ім`я гравця'
+        arg2:
+            label: 'пароль'
+            description: 'новий пароль'
+    authme.lastlogin:
+        description: 'Останній вхід гравця'
+        detailedDescription: 'Показує дату та час останнього входу гравця.'
+        arg1:
+            label: 'гравець'
+            description: 'Ім`я гравця'
+    authme.accounts:
+        description: 'Облікові записи гравця'
+        detailedDescription: 'Відображає всі облікові записи вказаного гравця за його ім`ям та IP-адресою.'
+        arg1:
+            label: 'гравець'
+            description: 'ім`я гравця або IP-адреса'
+    authme.email:
+        description: 'Електронна пошта гравця'
+        detailedDescription: 'Відображає адресу електронної пошти вказаного гравця.'
+        arg1:
+            label: 'гравець'
+            description: 'ім`я гравця'
+    authme.setemail:
+        description: 'Зміна ел. пошти гравця'
+        detailedDescription: 'Змінює адресу електронної пошти вказаного гравця.'
+        arg1:
+            label: 'гравець'
+            description: 'ім`я гравця'
+        arg2:
+            label: 'эл. почта'
+            description: 'електронна пошта гравця'
+    authme.getip:
+        description: 'IP-адреса гравця'
+        detailedDescription: 'Показує IP-адресу вказаного гравця в мережі.'
+        arg1:
+            label: 'гравець'
+            description: 'ім`я гравця'
+    authme.spawn:
+        description: 'Переміщення на точку відродження'
+        detailedDescription: 'Переміщує на точку відродження.'
+    authme.setspawn:
+        description: 'Переміщення точки відродження'
+        detailedDescription: 'Переміщує точку відродження гравців на ваше місце розташування.'
+    authme.firstspawn:
+        description: 'Переміщення на початкову точку появи'
+        detailedDescription: 'Переміщує початкову точку появи.'
+    authme.setfirstspawn:
+        description: 'Переміщення початкової точки появи'
+        detailedDescription: 'Переміщує початкову точку появи гравців на ваше поточне розташування.'
+    authme.purge:
+        description: 'Видалення старих даних'
+        detailedDescription: 'Видаляє старі дані старше за вказану кількість днів.'
+        arg1:
+            label: 'дні'
+            description: 'кількість днів'
+    authme.resetpos:
+        description: 'Видалення останнього розташування гравця'
+        detailedDescription: 'Видаляє останнє відоме місце вказаного гравця або всіх гравців.'
+        arg1:
+            label: 'гравець|*'
+            description: 'ім`я гравця/всі гравці'
+    authme.purgebannedplayers:
+        description: 'Видалення даних про заблоковані'
+        detailedDescription: 'Видаляє всі дані про заблокованих гравців.'
+    authme.switchantibot:
+        description: 'Зміна AntiBot-режиму'
+        detailedDescription: 'Змінює AntiBot-режим на вказаний.'
+        arg1:
+            label: 'ON|OFF'
+            description: 'включити\вимкнути'
+    authme.reload:
+        description: 'Перезавантаження плагіна'
+        detailedDescription: 'Перезавантажує плагін AuthMeReloaded.'
+    authme.version:
+        description: 'Інформація про версію'
+        detailedDescription: 'Показує докладну інформацію про встановлену версію AuthMeReloaded, його розробників, помічників, а також про ліцензію плагіна.'
+    authme.converter:
+        description: 'Перетворювач'
+        detailedDescription: 'Перетворює базу даних.'
+        arg1:
+            label: 'тип'
+            description: 'тип перетворення: xauth/crazylogin/rakamak/royalauth/vauth/sqliteToSql/mysqlToSqlite'
+    authme.help:
+        description: 'Перегляд допомоги'
+        detailedDescription: 'Показує допомогу по командам /authme.'
+        arg1:
+            label: 'команда'
+            description: 'команда, для якої потрібна допомога'
+    authme.backup:
+        description: 'Створення резервної копії'
+        detailedDescription: 'Створює резервну копію зареєстрованих користувачів.'

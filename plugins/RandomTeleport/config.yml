@@ -1,0 +1,42 @@
+tpmessage: "&a Ви виконалили випадкову телепортацію !"
+cantusemessage: "&cВи не можете використовувати цю команду наступні $secondsLeft$ секунд!"
+cancelmessage: "&cТелепортацію скасовано, оскільки ви зрушили з місця."
+permissionmessage: "&cВам заборонено це робити."
+mustintegermessage: "&cЗначення має бути цілим числом !"
+setmessage: "&aОбласть RandomTeleport була встановлена ​​в межах $value$ * $value$ навколо вас !"
+reloadmessage: "&7Конфігурацію перезавантажено !"
+usagesetmessage: "&cUsage : /rtp set [Integer]"
+usagetpprotectionmessage: "&cВикористовуйте : /rtp tpprotection [True|False]"
+usagecooldownmessage: "&cВикористовуйте : /rtp cooldown [Integer]"
+usagedelaymessage: "&cВикористовуйте : /rtp delay [Integer]"
+cooldownsetmessage: "&aВстановлено нове значення часу кулдауну телепортації !"
+delaysetmessage: "&aВстановлено нову затримку телепортації !"
+delaystartmessage: "&aТелепортація почнеться через $delay$ секунд. Не рухайтесь бо розірве на шмаття !"
+
+notonlinemessage: "&cПомилка : Цього гравця немає в мережі !"
+doesntexistsmessage: "&cПомилка : Того світу не існує !"
+notfoundmessage: "&cПомилка: Місце телепортації не знайдено."
+
+rtphelpmessage: "&c/rtp - /wild - /wilderness : &aТелепортуватися у випадкове місце"
+rtpothershelpmessage: "&c/rtp [player] [world] <biome> : &aТелепортує вказаного гравця у заданий світ."
+sethelpmessage: "&c/rtp set [size(Integer)] : &aВстановіть розмір зони телепортації навколо вас."
+cooldownhelpmessage: "&c/rtp cooldown [time(seconds)(integer)] : &aВстановити час відновлення команди телепортації."
+reloadhelpmessage: "&c/rtp reload : &aПерезавантажкно файл конфігурації."
+tpprotectionhelpmessage: "&c/rtp tpprotection [True|False] : &aДозволяє телепортувати гравців у захищені зони. Якщо True, вони ніколи не будуть телепортовані в охоронювану зону."
+delayhelpmessage: "&c/rtp delay [seconds] : &aВстановіть затримку перед телепортацією гравця."
+
+
+cooldown: 10
+delay: 60
+tpprotection: true
+Worlds:
+  world:
+    zMax: 2001
+    zMin: -2001
+    xMax: 2001
+    xMin: -2001 
+  world_nether:
+    zMax: 2007
+    zMin: -1995
+    xMax: 1995
+    xMin: -2007

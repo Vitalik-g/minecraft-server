@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1662904898794
+  login: 1662904333700
+  kits:
+    notch: 1662904482368
+    dtools: 1662904649433
+money: '0'
+last-account-name: Notch
+lastlocation:
+  world: 541f7b37-44ce-4667-8d74-349f96278174
+  world-name: world
+  x: 97.5
+  y: 70.0
+  z: -24.5
+  yaw: 2.6275832653045654
+  pitch: 0.0
+logoutlocation:
+  world: 541f7b37-44ce-4667-8d74-349f96278174
+  world-name: world
+  x: 99.69999998807907
+  y: 69.0
+  z: -50.69999998807907
+  yaw: -46.350120544433594
+  pitch: 1.9500032663345337
